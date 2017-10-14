@@ -1,0 +1,217 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  min-height: 100%;
+  width:100%;
+}
+
+
+
+a:link, a:visited {
+    background-color: powderblue;
+    color: black;
+    padding: .9em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+}
+
+
+a:hover, a:active {
+    background-color: black;
+    color: powderblue;
+}
+
+
+
+
+
+
+/*
+.btn-group button {
+
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+
+}
+
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}*/
+
+
+
+
+
+
+/*
+.callButton{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}*/
+
+/*.button1 {
+    background-color: black;
+    color: white;
+    border: 2px solid #f44271;
+    border-radius: 20px;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}*/
+
+#codeHeader {
+     font-size: 2.5em;
+     text-align: center;
+     font-family: 'Cormorant Garamond', serif;
+     z-index: 3;
+     color: /*#42f4b3*/  white;
+   }
+   .headers {
+   	text-align: center;
+   	color: white;
+   	font-size: 1.5em;
+   	top: 50%;
+   	left: 50%;
+   	position: absolute;
+   	transform: translate(-50%, -50%);
+   }
+#myName {
+	color: gold;
+}
+   .buttonRow {
+   	text-align: center;
+   }
+
+.codeHistory {
+  text-align: center;
+  text-overflow: auto;
+  line-height: 210%;
+  padding-right: 11%;
+  padding-left: 11%;
+  font-size: 1.8em;
+  color: /*#3bcbf1*/   #15af89;
+  top: 50%;
+  left: 50%;
+   transform: translate(-50%, -50%);
+
+   position: absolute;
+   clear: both;
+   float: all;
+
+}
+.codingLinks {
+  text-align: center;
+}
+
+.bioPic {
+  background-image: url("images/cheeks2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.codingPic {
+  background-image: url(images/spaceUSA2.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#codingPageText {
+	color: black;
+  background: gold;
+  opacity: 0.5;
+}
+
+.securityPic {
+  background-image: url(images/FixedBow2.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#securityPageText {
+  color: #42f4b3;
+  background: black;
+  opacity: 0.5;
+}
+
+#securityHeader {
+     font-size: 2.5em;
+     text-align: center;
+     font-family: 'Cormorant Garamond', serif;
+     z-index: 3;
+     color: black ;
+   }
+
+.volunteerPic {
+  background-image: url(images/junko2.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#volunteerPageText {
+  color: powderblue;
+  background: black;
+  opacity: 0.5;
+}
+
+
+.contactPic {
+  background-image: url(images/monkey.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.militaryPic {
+  background-image: url(images/iraq2.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
